@@ -1,9 +1,9 @@
 import React, {useEffect, useRef, useState} from "react";
 
-import marvel from '@/assets/images/marvel.avif'
-import venom from '@/assets/images/venom.webp'
-import spiderman from '@/assets/images/spiderman.webp'
-import spider from '@/assets/images/spider.png'
+import marvel from '/assets/images/marvel.avif'
+import venom from '/assets/images/venom.webp'
+import spiderman from '/assets/images/spiderman.webp'
+import spider from '/assets/images/spider.png'
 
 export default function SpiderVenomReveal() {
     const spiderRef = useRef(null);
