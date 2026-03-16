@@ -13,6 +13,6 @@ let router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
-        <h1>Welcome There</h1>
+        <RouterProvider router={router}/>
     </StrictMode>,
 )
