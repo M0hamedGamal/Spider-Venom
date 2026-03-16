@@ -11,7 +11,9 @@ let router = createBrowserRouter([
         path: "/",
         Component: App,
     },
-]);
+], {
+    basename: '/Spider-Venom/'
+});
 
 createRoot(document.getElementById('root')).render(
     <StrictMode>
